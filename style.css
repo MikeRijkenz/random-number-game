@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(53, 48, 48);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+    width: auto;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.guess-number{
+    height: 50px;
+    font-size: 40px;
+    width: 100px;
+}
+
+.btn{
+    border: none;
+    background-color: #eee;
+    color: #222;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+.hidden{
+    visibility: hidden;
+    height: 70px;
+    width: 100px;
+    background-color: rgb(86, 213, 255);
+    padding: 10px;
+}
